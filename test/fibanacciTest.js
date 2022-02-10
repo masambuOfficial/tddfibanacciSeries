@@ -3,7 +3,7 @@
 //Emmanuel Masambu and Murari Joshua
 
 const assert    = require("chai").assert;
-const fibonacci = require("../fibonacci");
+const fibonacci = require("../app");
 
 describe("Return the nth term n a fibonaci series", function(){   
     
@@ -11,5 +11,9 @@ describe("Return the nth term n a fibonaci series", function(){
     it("1st term in the fib series is 1", function(){
         assert.equal(fibonacci(1), 1);
     });
-   
+     //Second Test
+     it("2nd term in the fib series is 1", function(){
+        assert.equal(fibonacci(2), 1);
+    });
+    
 });
