@@ -15,5 +15,9 @@ describe("Return the nth term n a fibonaci series", function(){
      it("2nd term in the fib series is 1", function(){
         assert.equal(fibonacci(2), 1);
     });
+    //Third Test
+    it("3rd term in the fib series is 2", function(){
+        assert.equal(fibonacci(3), 2);
+    });
     
 });
